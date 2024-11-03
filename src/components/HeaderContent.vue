@@ -1,44 +1,24 @@
-<!-- components/HeaderContent.vue -->
-<template>
-  <header class="flex flex-wrap items-center justify-between px-16 py-4 text-white bg-[#1E1B2C] max-md:px-5">
-    <!-- Logo -->
-    <div class="flex items-center">
-      <img 
-        src="@/assets/images/logo/logo-join-sistem.png"
-        alt="Logo Join Sistem"
-        class="h-6 w-auto object-contain"
-      />
-    </div>
-
-    <!-- Navigation -->
-    <nav class="flex items-center justify-center flex-1 gap-8 text-base leading-7 font-sen">
-      <RouterLink 
-        v-for="link in navLinks" 
-        :key="link.path" 
-        :to="link.path"
-        class="hover:text-[#F5C34E] transition-colors duration-200"
-      >
-        {{ link.name }}
-      </RouterLink>
-    </nav>
-
-    <!-- Contact Button -->
-    <RouterLink 
-      to="/contact"
-      class="gap-3 px-8 py-3 text-lg font-bold leading-none bg-[#2F80ED] rounded-[63px] hover:bg-blue-700 transition-colors duration-200 font-sen"
-    >
-      Contact US
-    </RouterLink>
-  </header>
-</template>
-
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
 
-const navLinks = [
-  { name: 'Home', path: '/' },
-  { name: 'Blog', path: '/blog-biasa' },
-  { name: 'About Us', path: '/about' },
-  { name: 'Contact us', path: '/contact' }
-]
 </script>
+
+<template>
+  <nav class="px-12 w-full h-[80px] bg-x-black flex items-center justify-between">
+    <img src="@/assets/images/logo/logo-join-sistem.png" alt="Join Sistem Logo">
+    <ul class="flex gap-4">
+      <li>
+        <router-link to="/" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</router-link>
+      </li>
+      <li>
+        <router-link to="/blog-biasa" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</router-link>
+      </li>
+      <li>
+        <router-link to="/about" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About Us</router-link>
+      </li>
+      <li>
+        <router-link to="/contact" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Contact Us</router-link>
+      </li>
+    </ul>
+    <router-link to="/contact" class="bg-x-blue px-4 py-2 rounded-full text-white hover:bg-x-yellow transition duration-150 ease-in-out">Contact Us</router-link>
+  </nav>
+</template>
