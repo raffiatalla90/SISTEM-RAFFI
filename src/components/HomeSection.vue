@@ -194,7 +194,7 @@
   <div class="absolute left-0 bottom-0 w-[800px] h-[705px]">
     <img 
       loading="lazy" 
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a787077d1aa9468909fc456928315aef6413f3fe1da57d6c1b9c2804b4b5490" 
+      src="/src/assets/images/home2.png" 
       alt="Group of friends enjoying view"
       class="w-full h-full object-cover object-bottom" 
     />
@@ -222,66 +222,67 @@
 
 
 <section class="flex flex-col items-center px-20 mt-12 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
-    <h2 data-layername="listOfAuthors" class="self-center mt-32 text-4xl font-bold tracking-tighter leading-none text-gray-800 max-md:mt-10">
-      List of Authors
-    </h2>
+  <h2 data-layername="listOfAuthors" class="self-center mt-32 text-4xl font-bold tracking-tighter leading-none text-gray-800 max-md:mt-10">
+    List of Authors
+  </h2>
 
-    <div class="self-stretch mt-12 max-md:max-w-full">
-      <div class="flex gap-5 max-md:flex-col">
-        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div data-layername="background" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/25dcaebd26c99ba574e792602c125418b358c847fe193a6a4168ed9d9e073c61?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Floyd Miles profile" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-            <h3 data-layername="floydMiles" class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">
-              Floyd Miles
-            </h3>
-            <p data-layername="contentWriterCompany" class="self-stretch text-sm text-center text-zinc-500">
-              Content Writer @Company
-            </p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d8f1e9902c691411c652993f3f07db4bb3be13377d48c563e5ad995d262ecbc?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+  <div class="self-stretch mt-12 max-md:max-w-full">
+    <div class="flex gap-5 max-md:flex-col">
+      <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+        <div data-layername="background" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/25dcaebd26c99ba574e792602c125418b358c847fe193a6a4168ed9d9e073c61?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Floyd Miles profile" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+          <h3 data-layername="floydMiles" class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">
+            Floyd Miles
+          </h3>
+          <p data-layername="contentWriterCompany" class="self-stretch text-sm text-center text-zinc-500">
+            Content Writer @Company
+          </p>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d8f1e9902c691411c652993f3f07db4bb3be13377d48c563e5ad995d262ecbc?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+        </div>
+      </article>
 
-        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div data-layername="background" class="flex flex-col grow px-14 py-10 w-full leading-none bg-orange-50 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1363fbb60df23ae1da891c86ca93797fecd29ab0b2632729a9e6d7ab63be652e?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Dianne Russell profile" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3 data-layername="dianneRussell" class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">
-              Dianne Russell
-            </h3>
-            <p data-layername="contentWriterCompany" class="text-sm text-center text-zinc-500 max-md:mx-1">
-              Content Writer @Company
-            </p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/314f28c2413308b53e1de60b75b6761ab09bcb403e136d3cdc5a29b958952828?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+      <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+        <div data-layername="background" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1363fbb60df23ae1da891c86ca93797fecd29ab0b2632729a9e6d7ab63be652e?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Dianne Russell profile" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
+          <h3 data-layername="dianneRussell" class="mt-5 text-3xl text-center font-bold tracking-tighter text-gray-800">
+            Dianne Russell
+          </h3>
+          <p data-layername="contentWriterCompany" class="text-sm text-center text-zinc-500 max-md:mx-1">
+            Content Writer @Company
+          </p>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/314f28c2413308b53e1de60b75b6761ab09bcb403e136d3cdc5a29b958952828?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
+        </div>
+      </article>
 
-        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div data-layername="background" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e63229fcc6bfb426ca3e92f016df76f902ef056554c10953cffa738b21e8beb2?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Jenny Wilson profile" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3 data-layername="jennyWilson" class="mt-5 text-3xl font-bold tracking-tighter text-gray-800 max-md:mx-2">
-              Jenny Wilson
-            </h3>
-            <p data-layername="contentWriterCompany" class="text-sm text-center text-zinc-500">
-              Content Writer @Company
-            </p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae47b548caa90605f670af32b966107b1a77f62233ab96e7781ebb5061200759?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+      <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+        <div data-layername="background" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e63229fcc6bfb426ca3e92f016df76f902ef056554c10953cffa738b21e8beb2?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Jenny Wilson profile" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
+          <h3 data-layername="jennyWilson" class="mt-5 text-3xl text-center font-bold tracking-tighter text-gray-800 max-md:mx-2">
+            Jenny Wilson
+          </h3>
+          <p data-layername="contentWriterCompany" class="text-sm text-center text-zinc-500">
+            Content Writer @Company
+          </p>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae47b548caa90605f670af32b966107b1a77f62233ab96e7781ebb5061200759?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
+        </div>
+      </article>
 
-        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div data-layername="background" class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8194ac75c9713923f024d0d10883ef26a86fc10c5e0fd5140fd095344cacf84?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Leslie Alexander profile" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-            <h3 data-layername="leslieAlexander" class="self-stretch mt-5 text-3xl font-bold tracking-tighter text-gray-800">
-              Leslie Alexander
-            </h3>
-            <p data-layername="contentWriterCompany" class="text-sm text-center text-zinc-500">
-              Content Writer @Company
-            </p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/67e8fa30f63496b3761b497b5c4ef1e2174378d0e16c639cdf4afb86818cd27b?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
-      </div>
+      <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+        <div data-layername="background" class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8194ac75c9713923f024d0d10883ef26a86fc10c5e0fd5140fd095344cacf84?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Leslie Alexander profile" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+          <h3 data-layername="leslieAlexander" class="self-stretch mt-5 text-center text-3xl font-bold tracking-tighter text-gray-800">
+            Leslie Alexander
+          </h3>
+          <p data-layername="contentWriterCompany" class="text-sm text-center text-zinc-500">
+            Content Writer @Company
+          </p>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/67e8fa30f63496b3761b497b5c4ef1e2174378d0e16c639cdf4afb86818cd27b?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+        </div>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <section data-layername="logoComponent" class="flex flex-wrap gap-10 items-start text-zinc-500 pt-20" aria-labelledby="featured-section-title">
     <header class="flex flex-col self-start mt-0">
