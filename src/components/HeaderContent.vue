@@ -12,35 +12,33 @@
 
     <!-- Navigation -->
     <nav class="flex items-center justify-center flex-1 gap-8 text-base leading-7 font-sen">
-      <a 
+      <RouterLink 
         v-for="link in navLinks" 
         :key="link.path" 
-        :href="link.path"
+        :to="link.path"
         class="hover:text-[#F5C34E] transition-colors duration-200"
       >
         {{ link.name }}
-      </a>
+      </RouterLink>
     </nav>
 
     <!-- Contact Button -->
-    <button 
+    <RouterLink 
+      to="/contact"
       class="gap-3 px-8 py-3 text-lg font-bold leading-none bg-[#2F80ED] rounded-[63px] hover:bg-blue-700 transition-colors duration-200 font-sen"
-      @click="handleContact"
     >
       Contact US
-    </button>
+    </RouterLink>
   </header>
 </template>
 
 <script setup lang="ts">
+import { RouterLink } from 'vue-router'
+
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'Blog', path: '/blog-biasa' },
   { name: 'About Us', path: '/about' },
   { name: 'Contact us', path: '/contact' }
 ]
-
-const handleContact = () => {
-  window.location.href = '/contact'
-}
 </script>

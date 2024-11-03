@@ -35,7 +35,7 @@ const router = createRouter({
     },
     {
       path: '/blog-biasa',
-      name: 'BlogBiasa',
+      name: 'blogBiasa',
       component: BlogBiasaView,
     },
     {
