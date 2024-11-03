@@ -7,7 +7,7 @@
         <RouterLink to="/blog-biasa">Blog</RouterLink>
         <RouterLink to="/about" class="my-auto leading-loose">About us</RouterLink>
         <RouterLink to="/contact">Contact us</RouterLink>
-        <RouterLink to="/privacy" class="basis-auto">Privacy Policy</RouterLink>
+        <RouterLink to="/privacy-policy" class="basis-auto">Privacy Policy</RouterLink>
       </nav>
     </div>
     <section class="px-16 py-20 mt-14 w-full bg-white bg-opacity-10 max-md:px-5 max-md:mt-10 max-md:max-w-full">
