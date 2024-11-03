@@ -145,7 +145,7 @@
     <div class="flex gap-5 max-md:flex-col">
       
       <article class="flex flex-col w-3/12 max-md:w-full">
-        <router-link to="/blog/business" class="group flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600">
+        <router-link to="/business" class="group flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600">
           <div class="bg-[#FBF6EA] p-2 rounded mb-4 w-12 h-12 flex items-center justify-center">
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5305de9d9e170e8c91de03eb22dba944f5ef03ac5f3a3adb6ce52eb1ad20b4ae" alt="Business icon" class="w-10 h-10">
           </div>
@@ -228,18 +228,18 @@
 
   <div class="self-stretch mt-12 max-md:max-w-full">
     <div class="flex gap-5 max-md:flex-col">
-      <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-        <div data-layername="background" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/25dcaebd26c99ba574e792602c125418b358c847fe193a6a4168ed9d9e073c61?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Floyd Miles profile" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-          <h3 data-layername="floydMiles" class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">
-            Floyd Miles
-          </h3>
-          <p data-layername="contentWriterCompany" class="self-stretch text-sm text-center text-zinc-500">
-            Content Writer @Company
-          </p>
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d8f1e9902c691411c652993f3f07db4bb3be13377d48c563e5ad995d262ecbc?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-        </div>
-      </article>
+        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+            <router-link to="/author" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/25dcaebd26c99ba574e792602c125418b358c847fe193a6a4168ed9d9e073c61?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Floyd Miles profile" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+                <h3 data-layername="floydMiles" class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">
+                    Floyd Miles
+                </h3>
+                <p data-layername="contentWriterCompany" class="self-stretch text-sm text-center text-zinc-500">
+                    Content Writer @Company
+                </p>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d8f1e9902c691411c652993f3f07db4bb3be13377d48c563e5ad995d262ecbc?placeholderIfAbsent=true&apiKey=fe5d260a5f68477299ac6d1686c8df5e" alt="Social media links" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+            </router-link>
+        </article>
 
       <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
         <div data-layername="background" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 hover:bg-orange-50 hover:scale-105 max-md:px-5 max-md:mt-8">
