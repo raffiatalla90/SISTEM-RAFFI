@@ -35,7 +35,7 @@
 <script setup lang="ts">
 const navLinks = [
   { name: 'Home', path: '/' },
-  { name: 'Blog', path: '/blog' },
+  { name: 'Blog', path: '/blog-biasa' },
   { name: 'About Us', path: '/about' },
   { name: 'Contact us', path: '/contact' }
 ]

@@ -4,7 +4,7 @@
       <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa2d029eceaab91d963d6c4951fa809a2fa81a6fb505075634f755f2bd147808?apiKey=fe5d260a5f68477299ac6d1686c8df5e&" alt="Company Logo" class="object-contain shrink-0 max-w-full aspect-[5] w-[140px]" />
       <nav class="flex gap-6">
         <RouterLink to="/" class="grow">Home</RouterLink>
-        <RouterLink to="/blog">Blog</RouterLink>
+        <RouterLink to="/blog-biasa">Blog</RouterLink>
         <RouterLink to="/about" class="my-auto leading-loose">About us</RouterLink>
         <RouterLink to="/contact">Contact us</RouterLink>
         <RouterLink to="/privacy" class="basis-auto">Privacy Policy</RouterLink>
